@@ -23,6 +23,7 @@ the Docs guide is published on the community's site.
    :caption: Case studies
 
    case-studies/wtd-guide
+   case-studies/swiftpay-dita-workflow
    case-studies/figma-drawio-converter
    case-studies/multicloud-connectivity
    case-studies/hpc-platform
