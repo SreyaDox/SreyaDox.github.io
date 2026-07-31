@@ -3,8 +3,15 @@ SwiftPay DITA Conversion Workflow (AI Workflow Design)
 
 **Artifact:** `github.com/SreyaDox/swiftpay-dita-workflow
 <https://github.com/SreyaDox/swiftpay-dita-workflow>`_ — a public,
-runnable AI workflow, companion to my `AI Workflow Design blog series
-<https://sreyad.medium.com/>`_.
+runnable AI workflow, companion to my three-part AI Workflow Design
+blog series:
+
+1. `Building AI Workflows and Minimalism
+   <https://sreyad.medium.com/building-ai-workflows-and-minimalism-f6ae7206f627>`_
+2. `Designing an AI Workflow's Repo
+   <https://sreyad.medium.com/designing-an-ai-workflows-repo-14e746e068dd>`_
+3. `Testing an AI Workflow's Reliability
+   <https://sreyad.medium.com/testing-an-ai-workflows-reliability-9c9584a19cb0>`_
 
 The problem
 -----------
