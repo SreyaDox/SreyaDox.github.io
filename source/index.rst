@@ -7,10 +7,11 @@ content. I currently work at Oracle, where I write and diagram
 cross-product cloud solution content for the Oracle Architecture Center
 and build AI-assisted authoring workflows.
 
-This site is a curated portfolio of my public work. Every piece linked
-here is published and verifiable: Oracle Architecture Center solutions
-list me as a contributor in their Acknowledgments section, and the Write
-the Docs guide is published on the community's site.
+This site is a curated portfolio of my work. Everything public is
+linked and verifiable: Oracle Architecture Center solutions list me as
+a contributor in their Acknowledgments section, and the Write the Docs
+guide is published on the community's site. Internal work is described
+and clearly labeled as such, with its public analogs linked.
 
 .. rubric:: Elsewhere
 
@@ -24,6 +25,7 @@ the Docs guide is published on the community's site.
 
    case-studies/wtd-guide
    case-studies/swiftpay-dita-workflow
+   case-studies/troubleshooting-kb-workflow
    case-studies/figma-drawio-converter
    case-studies/oracle-solutions
 
