@@ -25,10 +25,7 @@ the Docs guide is published on the community's site.
    case-studies/wtd-guide
    case-studies/swiftpay-dita-workflow
    case-studies/figma-drawio-converter
-   case-studies/multicloud-connectivity
-   case-studies/hpc-platform
-   case-studies/video-knowledge-agents
-   case-studies/network-topology
+   case-studies/oracle-solutions
 
 .. note::
 

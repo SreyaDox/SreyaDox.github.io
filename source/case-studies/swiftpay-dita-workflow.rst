@@ -55,3 +55,10 @@ workflow-design approach — and it is runnable: clone it, open Claude
 Code, and convert a sample document yourself. The design principles come
 from instructional design as much as engineering: clear objectives,
 minimal scaffolding, iterative refinement against real examples.
+
+Try it
+------
+
+Clone the repo and run a conversion yourself:
+`github.com/SreyaDox/swiftpay-dita-workflow
+<https://github.com/SreyaDox/swiftpay-dita-workflow>`_
