@@ -1,0 +1,34 @@
+# Sreya Dutta — Documentation Portfolio
+
+> Technical writer and documentation systems builder with 25+ years across enterprise documentation, curriculum development, and developer content. Currently at Oracle, writing and diagramming cross-product cloud solution content for the Oracle Architecture Center and building AI-assisted DITA authoring workflows.
+
+Public work is linked and independently verifiable: Oracle Architecture Center solutions name me as a contributor in their Acknowledgments sections, and the Write the Docs guide is published on the community's own site. Internal work is described and labeled as internal, with its public analogs linked.
+
+## AI workflows and documentation tooling
+
+- [SwiftPay DITA Conversion Workflow](https://sreyadox.github.io/case-studies/swiftpay-dita-workflow.html): Public, runnable Claude Code agent workflow that converts Word, Confluence, and JIRA source content into validated DITA topics behind a human-review gate. Companion to my three-part blog series on AI workflow design.
+- [Troubleshooting Knowledge Workflow](https://sreyadox.github.io/case-studies/troubleshooting-kb-workflow.html): Internal Oracle workflow converting support knowledge articles into DITA troubleshooting topics with explicit cause and remedy markup, so the output is reliably consumable by external LLMs and grounds an internal Slack support bot.
+- [SVG-to-draw.io Converter](https://sreyadox.github.io/case-studies/figma-drawio-converter.html): Figma Make app I built that converts published SVG architecture diagrams into editable draw.io files, shipped to customers through the Download Diagram button on Oracle solution pages.
+
+## Published documentation
+
+- [Solution Architectures Published](https://sreyadox.github.io/case-studies/oracle-solutions.html): How I produce Oracle Architecture Center solutions — diagrams built by hand in Figma to Oracle's brand standards, SME content reviewed both manually and through my AI workflow, DITA source generated and validated against style and terminology policy, then authored in Oxygen and published.
+
+## Community
+
+- [The Technical Writer's Edge](https://sreyadox.github.io/case-studies/wtd-guide.html): A job search guide for the AI era, published April 2026 for the Write the Docs community and built end to end with Claude Code in a Sphinx, reStructuredText, and GitHub docs-as-code workflow.
+
+## Optional
+
+The four solutions below are individual case studies summarized by the Solution Architectures Published page above.
+
+- [Multicloud Private Connectivity](https://sreyadox.github.io/case-studies/multicloud-connectivity.html): Oracle Integration to Oracle AI Database@AWS connectivity, with diagrams built to Oracle's multicloud diagram standards.
+- [On-Demand HPC and AI Platform](https://sreyadox.github.io/case-studies/hpc-platform.html): Elastic HPC and AI research platform; I onboarded the SMEs to our diagram standards and worked with Oracle's brand team to get new icons created.
+- [Video Knowledge with AI Agents](https://sreyadox.github.io/case-studies/video-knowledge-agents.html): Video transcription and knowledge retrieval with Oracle Autonomous AI Database, MCP, and Oracle AI Agent Studio, produced with the Oracle A-Team.
+- [Network Design for Oracle AI Database@AWS](https://sreyadox.github.io/case-studies/network-topology.html): Network topology solution in which every diagram is mine, developed iteratively with the subject matter experts.
+
+## Elsewhere
+
+- [LinkedIn](https://linkedin.com/in/sreya)
+- [Blog](https://sreyad.medium.com/): The AI Workflow Design series and other writing.
+- [GitHub](https://github.com/SreyaDox): Including the source and deploy pipeline for this site.

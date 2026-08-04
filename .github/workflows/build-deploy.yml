@@ -25,6 +25,9 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      - name: Check llms.txt is in sync with the case studies
+        run: python scripts/check_llms_txt.py
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 
