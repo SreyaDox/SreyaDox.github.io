@@ -21,13 +21,22 @@ and clearly labeled as such, with its public analogs linked.
 
 .. toctree::
    :maxdepth: 1
+   :caption: Developer and product documentation
+
+   case-studies/clover-developer-docs
+   case-studies/oci-vision
+
+.. toctree::
+   :maxdepth: 1
    :caption: Case studies
 
    case-studies/wtd-guide
    case-studies/swiftpay-dita-workflow
    case-studies/troubleshooting-kb-workflow
+   case-studies/fusion-apps-hands-on
    case-studies/figma-drawio-converter
    case-studies/oracle-solutions
+   case-studies/findability-seo-aeo
 
 .. note::
 

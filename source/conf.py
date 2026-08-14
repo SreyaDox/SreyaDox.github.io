@@ -5,7 +5,9 @@ copyright = "2026, Sreya Dutta"
 extensions = []
 
 html_theme = "furo"
-html_title = "Sreya Dutta — Documentation Portfolio"
+# No dash or em dash here: Furo appends this to each page title with its
+# own " - " separator, so punctuation inside it collides in the <title>.
+html_title = "Sreya Dutta's Documentation Portfolio"
 html_static_path = []
 
 # Copied verbatim to the site root. Holds llms.txt, which scripts/
