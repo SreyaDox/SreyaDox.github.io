@@ -18,7 +18,7 @@ Public work is linked and independently verifiable: Oracle Architecture Center s
 
 ## Published documentation
 
-- [Solution Architectures Published](https://sreyadox.github.io/case-studies/oracle-solutions.html): How I produce Oracle Architecture Center solutions — diagrams built by hand in Figma to Oracle's brand standards, SME content reviewed both manually and through my AI workflow, DITA source generated and validated against style and terminology policy, then authored in Oxygen and published.
+- [Solution Architectures Published](https://sreyadox.github.io/case-studies/oracle-solutions.html): How I produce Oracle Architecture Center solutions — diagrams built by hand in Figma to Oracle's brand standards, SME content reviewed both manually and through my AI workflow, DITA source generated and validated against style and terminology policy, then authored in Oxygen and published. A first draft of an architecture diagram skill, written out of that hands-on Figma work with Oracle's branded library objects, is currently in testing.
 - [Findability by Design: SEO and AEO](https://sreyadox.github.io/case-studies/findability-seo-aeo.html): How Architecture Center content is structured for findability — modular DITA topics that each publish to their own URL under a common basepath, shortdesc wrapped in abstract as the search summary, coordinated PR and social amplification with marketing, and performance measured in Adobe Analytics and Oracle Analytics Cloud. The same structure that earns search ranking gives retrieval precision and explicit action targets to agents, via semantic markup that distinguishes a UI control from a command from a variable.
 
 ## Community
