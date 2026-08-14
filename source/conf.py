@@ -18,5 +18,12 @@ exclude_patterns = ["_build"]
 
 # Oracle's docs site sometimes rejects automated requests; the linkcheck
 # job stays useful for everything else.
-linkcheck_ignore = []
+#
+# Medium returns 403 to every automated request, so its links always fail
+# linkcheck even though they resolve fine in a browser. Ignoring them
+# keeps the report free of known false positives — if the whole report is
+# noise, nobody reads it.
+linkcheck_ignore = [
+    r"https://sreyad\.medium\.com/.*",
+]
 linkcheck_timeout = 15

@@ -1,0 +1,4 @@
+# Local preview only. CI installs requirements.txt, not this file —
+# keep the build dependencies there.
+-r requirements.txt
+sphinx-autobuild

@@ -1,0 +1,20 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "portfolio",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "sphinx_autobuild",
+        "source",
+        "_site",
+        "--port",
+        "8000",
+        "--ignore",
+        "*_site*"
+      ],
+      "port": 8000
+    }
+  ]
+}

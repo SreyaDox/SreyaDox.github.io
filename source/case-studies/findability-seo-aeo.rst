@@ -2,7 +2,7 @@ Findability by Design: SEO and AEO at the Oracle Architecture Center
 =====================================================================
 
 **Artifact:** `Oracle Architecture Center
-<https://docs.oracle.com/en/solutions/>`_ reference architectures and
+<https://docs.oracle.com/solutions/>`_ reference architectures and
 solution playbooks, several of which name me in their Acknowledgments.
 
 The problem

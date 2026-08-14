@@ -21,7 +21,37 @@ updating it.
 
 Adding a case study? Add it to `llms.txt` too, or CI will tell you.
 
-## Local build
+## Preview before you push
+
+Pushing to `main` deploys the live site, so preview and check locally
+first.
+
+Install the dev dependencies once:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+**Look at it.** Live preview at http://127.0.0.1:8000, rebuilding and
+reloading the browser as you edit. Ctrl-C to stop.
+
+```bash
+./scripts/preview.sh
+```
+
+**Check it will pass CI.** Runs the same gates as
+[build-deploy.yml](.github/workflows/build-deploy.yml), in the same
+order: the `llms.txt` sync check, the build with warnings-as-errors, and
+linkcheck. Exits non-zero if a push would fail.
+
+```bash
+./scripts/check.sh
+```
+
+Linkcheck reports without blocking, matching CI. Medium is excluded via
+`linkcheck_ignore` because it returns 403 to all automated requests.
+
+## Plain build
 
 ```bash
 pip install -r requirements.txt
