@@ -11,7 +11,12 @@ How each piece is produced
 --------------------------
 
 - **Diagrams:** I create every architecture diagram by hand in Figma,
-  based on Oracle's brand standards and diagram templates.
+  based on Oracle's brand standards and diagram templates. Out of that
+  hands-on work with Oracle's branded library objects, I have written a
+  first draft of an architecture diagram skill that encodes the
+  conventions I apply by hand. It is in testing now, and I expect to
+  keep iterating on it as I find where it holds up and where it
+  doesn't.
 - **Review:** I take the SME content and review it twice — manually,
   and through the AI workflow, which connects the diagram to the
   content to find gaps between what the architecture shows and what
