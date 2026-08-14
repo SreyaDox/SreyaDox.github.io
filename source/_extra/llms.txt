@@ -1,4 +1,4 @@
-# Sreya Dutta — Documentation Portfolio
+# Sreya Dutta's Career Portfolio
 
 > Technical writer and documentation systems builder with 25+ years across enterprise documentation, curriculum development, and developer content. Currently at Oracle, writing and diagramming cross-product cloud solution content for the Oracle Architecture Center and building AI-assisted DITA authoring workflows.
 

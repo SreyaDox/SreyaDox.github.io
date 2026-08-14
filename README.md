@@ -1,7 +1,7 @@
 # sreyadox.github.io
 
-My documentation portfolio: case studies of public work I've published,
-with links and on-page verification for each.
+My career portfolio: case studies of public work I've published, with
+links and on-page verification for each.
 
 Built with Sphinx (reStructuredText) and deployed by GitHub Actions:
 every push verifies `llms.txt` is in sync with the case studies, builds
