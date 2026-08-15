@@ -58,8 +58,14 @@ answer engines and agents, which is the more interesting half.
 
 Modular topics with clean URLs are already chunked at a sensible
 boundary, so a retrieval system does not have to guess where one idea
-ends. A well-authored ``<shortdesc>`` is a precision anchor that helps
-retrieval select the right topic before the model reads the body.
+ends. Because each published page maps to a concept or task topic in
+DITA, the page-level chunk a retrieval system would take *is* the
+authored topic — which is the alignment that
+:doc:`chunking research keeps finding works <../dita-and-retrieval>`,
+arrived at here as a side effect of structured authoring rather than as
+an AI design decision. A well-authored ``<shortdesc>`` then acts as a
+precision anchor, helping retrieval select the right topic before the
+model reads the body.
 
 Semantic markup goes further than retrieval, into execution. DITA
 distinguishes a ``<uicontrol>`` from a code phrase from a command from

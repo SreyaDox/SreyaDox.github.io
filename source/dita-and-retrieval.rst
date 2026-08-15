@@ -33,7 +33,12 @@ the authoring discipline rather than of any tool:
 
 - **Topics are chunked at authored boundaries.** A DITA topic is
   self-contained by design, so the chunk boundary was decided by
-  someone who understood the content, not by a character count.
+  someone who understood the content, not by a character count. The
+  Architecture Center content I publish works this way in production:
+  reference architectures and solution playbooks are chunked at the
+  page level, each page maps to a concept or task topic in DITA, and so
+  the retrieval chunk and the authored topic are the same boundary. No
+  splitter runs over it afterward.
 - **``<shortdesc>`` is a summary written for the topic.** It behaves
   like a precision anchor: retrieval can select on it before the model
   reads the body.
