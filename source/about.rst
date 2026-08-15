@@ -10,8 +10,8 @@ workflows.
 Where I started
 ---------------
 
-I studied computer science in college — B.Sc. Computer Science, St.
-Ann's College for Women, Osmania University, 1997–2000 — where I
+I studied computer science in college (B.Sc. Computer Science, St.
+Ann's College for Women, Osmania University, 1997 to 2000), where I
 learned to program in C, COBOL, and BASIC. Alongside it I completed a
 one-year Diploma in Multimedia and Graphic Design (1999–2000), learning
 graphic design in Adobe Photoshop and Illustrator, 2D animation and
@@ -27,7 +27,7 @@ Building eLearning from scratch, 2000–2005
 At Sankhya Infotech I worked as an eLearning developer and
 instructional designer, eventually as a project leader, building over
 200 hours of training for aviation clients including Airbus Industrie
-and Snecma Moteurs — courses used by global flight crews, maintenance
+and Snecma Moteurs. The courses were used by global flight crews, maintenance
 personnel, pilots, and dispatchers. I built the courseware in
 Macromedia Authorware and Flash.
 
@@ -77,8 +77,8 @@ work rather than changing fields. Instructional design chunks content
 by information type: you classify what you are teaching as a concept, a
 procedure, a process, a fact, or a principle, because each one has to
 be explained, sequenced, and assessed differently. DITA types topics
-the same way — `concept, task, and reference
-<https://docs.oasis-open.org/dita/v1.0/archspec/infotypes.html>`_.
+the same way, as `concept, task, and reference
+<https://dita-lang.org/dita/archspec/base/information-typing>`_.
 
 The two line up almost exactly, and not by accident. Both descend from
 the `structured writing
@@ -95,7 +95,7 @@ keeps landing on is the one instructional design settled decades ago.
 Why this history matters
 ------------------------
 
-I have coded in some form throughout my career — course interfaces, XML
+I have coded in some form throughout my career: course interfaces, XML
 data exchange, install guides written by provisioning my own cloud
 environments, internal tools. That foundation, plus years working
 embedded inside engineering teams and their development processes, is
@@ -110,8 +110,8 @@ scale, I built in tests and validations. And I learned throughout from
 a genuinely smart technical writing community solving the same problems
 I was.
 
-That progression — manual first, minimal instructions, then structure,
-then tests — is what my `AI Workflow Design series
+That progression, manual first, then minimal instructions, then
+structure, then tests, is what my `AI Workflow Design series
 <https://sreyad.medium.com/>`_ documents, and what the
 :doc:`SwiftPay DITA workflow <case-studies/swiftpay-dita-workflow>`
 demonstrates in code.
@@ -120,7 +120,7 @@ What I'm curious about next
 ---------------------------
 
 Working in `DITA
-<https://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part1-base.html>`_
+<https://dita-lang.org/dita/introduction/dita-release-overview>`_
 every day, I keep running into a question I cannot answer cleanly: does
 DITA's explicit semantic markup actually improve how well a model
 retrieves and acts on content, or does the benefit disappear once

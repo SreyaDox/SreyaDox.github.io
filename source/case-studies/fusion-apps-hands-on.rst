@@ -5,8 +5,8 @@ Learning the Product by Running It (Oracle Fusion Applications)
 
    This work was internal to Oracle and delivered through Oracle
    University, so there is no public artifact to link. It is described
-   here because the working method — verify the product by operating it
-   before writing about it — is how I approach documentation accuracy
+   here because the working method, verify the product by operating it
+   before writing about it, is how I approach documentation accuracy
    generally.
 
 The problem
@@ -38,7 +38,7 @@ permission assignment workflow to provision all thirty users without
 those images, which unblocked the program.
 
 Across subsequent releases I maintained and extended the curriculum the
-same way — reviewing and re-testing hands-on activities against each
+same way, reviewing and re-testing hands-on activities against each
 new feature, and setting up the environment data required to rebuild
 the reusable classroom image every release cycle. The curriculum was
 not a document that was written once. It was a system that had to stay

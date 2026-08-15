@@ -21,9 +21,19 @@ exclude_patterns = ["_build"]
 #
 # Medium returns 403 to every automated request, so its links always fail
 # linkcheck even though they resolve fine in a browser. Ignoring them
-# keeps the report free of known false positives — if the whole report is
+# keeps the report free of known false positives. If the whole report is
 # noise, nobody reads it.
 linkcheck_ignore = [
     r"https://.*\.?medium\.com/.*",
 ]
+
+# DITA spec links are deliberately unversioned so they keep pointing at
+# the current spec as new versions ship. dita-lang.org 301s those to the
+# versioned path, which is correct behaviour, not a broken link. Allow
+# just that redirect rather than ignoring the host, so a genuinely dead
+# DITA link still gets reported.
+linkcheck_allowed_redirects = {
+    r"https://dita-lang\.org/dita/.*": r"https://dita-lang\.org/\d+\.\d+/dita/.*",
+}
+
 linkcheck_timeout = 15

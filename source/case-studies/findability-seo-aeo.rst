@@ -60,7 +60,7 @@ Modular topics with clean URLs are already chunked at a sensible
 boundary, so a retrieval system does not have to guess where one idea
 ends. Because each published page maps to a concept or task topic in
 DITA, the page-level chunk a retrieval system would take *is* the
-authored topic — which is the alignment that
+authored topic, which is the alignment that
 :doc:`chunking research keeps finding works <../dita-and-retrieval>`,
 arrived at here as a side effect of structured authoring rather than as
 an AI design decision. A well-authored ``<shortdesc>`` then acts as a
@@ -88,5 +88,5 @@ of work.
 
 The corollary is that this is not a formatting preference. Content that
 is one long page of undifferentiated prose is hard to rank, hard to
-retrieve against, and ambiguous to act on — and no amount of promotion
+retrieve against, and ambiguous to act on, and no amount of promotion
 downstream fixes a structural problem upstream.

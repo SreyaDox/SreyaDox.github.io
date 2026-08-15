@@ -4,10 +4,10 @@ Clover Developer Documentation (Fiserv)
 **Artifacts:**
 
 - `Billing for apps <https://docs.clover.com/dev/docs/billing-for-apps>`_
-  — app billing on the legacy Developer Dashboard
+  (app billing on the legacy Developer Dashboard)
 - `Working with Orders
-  <https://docs.clover.com/dev/docs/working-with-orders>`_ — the Orders
-  API
+  <https://docs.clover.com/dev/docs/working-with-orders>`_ (the Orders
+  API)
 
 .. note::
 
@@ -42,7 +42,7 @@ rewrote the documentation against verified behavior rather than against
 the previous documentation.
 
 The subject matter is genuinely intricate, which is why the drift
-mattered so much. App billing ran two models at once — metered billing
+mattered so much. App billing ran two models at once. Metered billing
 charged in arrears against logged merchant events, and subscription
 billing charged in advance against a monthly price with proration. On
 top of that sat a merchant account lifecycle of active, lapsed,
@@ -63,7 +63,7 @@ The pressure here was different from billing. The content was not
 wrong, but developers were integrating fast and under real business
 urgency, so the job was getting someone to a working order quickly
 while being precise about the pieces they would otherwise discover by
-trial and error — line items, modifiers, discounts, taxes, service
+trial and error: line items, modifiers, discounts, taxes, service
 charges, and how an order total actually resolves once all of them
 apply.
 
@@ -73,7 +73,7 @@ Closing the loop with developers
 As part of Developer Relations I answered developer and partner
 questions directly, including from partners such as Google. Every
 question that was hard to answer pointed at either a documentation gap
-or a product gap, and I logged both — filing bugs and feature gaps from
+or a product gap, and I logged both, filing bugs and feature gaps from
 a developer-facing point of view and following them through to a fix. I
 was still finding and filing those issues on my last day.
 

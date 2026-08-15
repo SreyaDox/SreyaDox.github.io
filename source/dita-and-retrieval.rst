@@ -11,9 +11,9 @@ The question
 Most content reaching an LLM today is Markdown, or HTML converted to
 Markdown. That format carries almost no semantics: ``**Save**`` means
 bold, not "this is a UI control." Meanwhile DITA has spent two decades
-encoding exactly those distinctions, and the `DITA 1.3 specification
-<https://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part1-base.html>`_
-defines a typed vocabulary for them — concepts, tasks, and references
+encoding exactly those distinctions, and the `DITA specification
+<https://dita-lang.org/dita/introduction/dita-release-overview>`_
+defines a typed vocabulary for them: concepts, tasks, and references
 at the topic level, and inside a task, elements that separate a
 prerequisite from a step from a result, or a UI control from a command
 from a variable.
@@ -50,7 +50,7 @@ the authoring discipline rather than of any tool:
   contexts you have not seen yet cannot say "as described above" or
   inherit meaning from its surroundings. That is the same property a
   retrieved chunk needs, since it arrives with no neighbors. Designing
-  for reuse and designing for retrieval are close to the same problem —
+  for reuse and designing for retrieval are close to the same problem.
   `SCORM <https://scorm.com/scorm-explained/>`_ reached it from the
   eLearning side with the sharable content object, assembled by a
   manifest much as DITA topics are assembled by a map.
@@ -65,13 +65,54 @@ deterministic and agentic architectures
 extends it into an enterprise architecture built on semantic markup,
 knowledge graphs, and validation.
 
+Three arrivals at the same answer
+----------------------------------
+
+None of this originated with DITA, and the timeline is the part I find
+most persuasive.
+
+`SCORM 1.0 <https://scorm.com/scorm-explained/business-of-scorm/scorm-versions/>`_
+was published in 2000 by Advanced Distributed Learning, a US Department
+of Defense initiative. Its problem was military training content locked
+inside incompatible systems. Its answer was the sharable content
+object, with a manifest describing how objects assemble into a course.
+
+`IBM published DITA
+<https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture>`_
+in March 2001, roughly a year later, for an unrelated reason: replacing
+an aging proprietary SGML language for technical documentation authored
+and reused at scale. Its answer was the typed topic, with a map
+describing how topics assemble into a deliverable. DITA 1.0 became an
+OASIS standard in June 2005.
+
+Different sponsor, different audience, different failure being
+prevented. Within about twelve months both produced the same three
+things: a self-contained unit of content, metadata describing what that
+unit is, and a separate assembly file that composes units without
+modifying them.
+
+Neither invented content typing. That traces to Robert Horn, who
+developed `Information Mapping
+<https://en.wikipedia.org/wiki/Structured_writing>`_ between 1963 and
+1965 and published it in 1967, deriving his information types from
+research on how people take in different kinds of knowledge.
+
+So the sequence is: information types defined in the 1960s from
+studying human comprehension, two unrelated communities independently
+building modular self-contained chunks around 2000, and retrieval
+engineering now finding that topic-aligned chunks outperform fixed-size
+splitting. Three arrivals at the same answer across nearly sixty years,
+by people who were not talking to each other. When separate fields
+converge like that, the structure probably belongs to the problem
+rather than to any one solution.
+
 What the evidence supports, and what it doesn't
 -----------------------------------------------
 
 The case for structure at the pipeline level is reasonably strong.
 Chunking studies consistently find that boundaries aligned to logical
 topics beat fixed-size splitting, and the industry has converged on
-that independently of DITA — the `2026 chunking benchmarks
+that independently of DITA. The `2026 chunking benchmarks
 <https://www.firecrawl.dev/blog/best-chunking-strategies-rag>`_ and
 `production RAG guidance
 <https://www.premai.io/blog/rag-chunking-strategies-the-2026-benchmark-guide/>`_
@@ -89,7 +130,7 @@ Content Wrangler puts it directly: `AI may not need XML in the prompt
 window, but it still needs structured content
 <https://www.thecontentwrangler.com/p/ai-may-not-need-xml-in-the-prompt>`_.
 The structure does its work upstream, in how content is chunked,
-selected, and related — not as tags in the context window. Which means
+selected, and related, not as tags in the context window. Which means
 the benefit is real but indirect, and it can be replicated by any
 format with the same discipline applied. DITA is the most mature
 implementation of that discipline, not the only possible one.
@@ -122,17 +163,17 @@ different directions:
   a curated index of a site. This portfolio publishes one.
 - Dachary Carey's `agent reading test
   <https://dacharycarey.com/2026/04/06/designing-agent-reading-test/>`_,
-  which found that agents cannot reliably self-report what they read —
-  a useful caution for anyone evaluating this by asking a model how it
+  which found that agents cannot reliably self-report what they read.
+  A useful caution for anyone evaluating this by asking a model how it
   did.
 
 Related work of mine
 --------------------
 
-- :doc:`Findability by design <case-studies/findability-seo-aeo>` — the
+- :doc:`Findability by design <case-studies/findability-seo-aeo>`: the
   same structure serving search ranking and retrieval.
 - :doc:`Troubleshooting knowledge workflow
-  <case-studies/troubleshooting-kb-workflow>` — explicit cause and
+  <case-studies/troubleshooting-kb-workflow>`: explicit cause and
   remedy markup so a support bot can ground its answers.
-- :doc:`SwiftPay DITA workflow <case-studies/swiftpay-dita-workflow>` —
+- :doc:`SwiftPay DITA workflow <case-studies/swiftpay-dita-workflow>`:
   the conversion pipeline, public and runnable.
