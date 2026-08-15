@@ -71,6 +71,27 @@ Minimalism
 <https://sreyad.medium.com/building-ai-workflows-and-minimalism-f6ae7206f627>`_
 comes from.
 
+There is a more specific overlap than method, and it is the reason the
+move from curriculum to documentation felt like continuing the same
+work rather than changing fields. Instructional design chunks content
+by information type: you classify what you are teaching as a concept, a
+procedure, a process, a fact, or a principle, because each one has to
+be explained, sequenced, and assessed differently. DITA types topics
+the same way — `concept, task, and reference
+<https://docs.oasis-open.org/dita/v1.0/archspec/infotypes.html>`_.
+
+The two line up almost exactly, and not by accident. Both descend from
+the `structured writing
+<https://en.wikipedia.org/wiki/Structured_writing>`_ research of the
+1960s, particularly Robert Horn's Information Mapping, which derived
+its types from how people process different kinds of knowledge.
+
+Deciding whether something is a concept or a procedure is the same
+judgment in a course outline and in a DITA map, and it is the judgment
+that decides where one chunk ends and the next begins. Which is why the
+chunking question interests me: the boundary that retrieval research
+keeps landing on is the one instructional design settled decades ago.
+
 Why this history matters
 ------------------------
 
