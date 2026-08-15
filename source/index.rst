@@ -21,6 +21,12 @@ and clearly labeled as such, with its public analogs linked.
 
 .. toctree::
    :maxdepth: 1
+   :caption: About
+
+   about
+
+.. toctree::
+   :maxdepth: 1
    :caption: Developer and product documentation
 
    case-studies/clover-developer-docs

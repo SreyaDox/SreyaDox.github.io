@@ -2,6 +2,8 @@
 
 > Technical writer and documentation systems builder with 25+ years across enterprise documentation, curriculum development, and developer content. Currently at Oracle, writing and diagramming cross-product cloud solution content for the Oracle Architecture Center and building AI-assisted DITA authoring workflows.
 
+- [About Me](https://sreyadox.github.io/about.html): Career background — computer science and multimedia training, building aviation eLearning course interfaces from scratch in Flash 5 and Authorware, close to ten years in instructional design before documentation, and how instructional design principles (clear objectives, minimal scaffolding, iterative refinement) shape my approach to prompts and AI workflows.
+
 Public work is linked and independently verifiable: Oracle Architecture Center solutions name me as a contributor in their Acknowledgments sections, and the Write the Docs guide is published on the community's own site. Internal work is described and labeled as internal, with its public analogs linked.
 
 ## AI workflows and documentation tooling
