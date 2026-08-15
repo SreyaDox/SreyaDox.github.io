@@ -1,23 +1,22 @@
 Clover Developer Documentation (Fiserv)
 ========================================
 
-**Artifacts:**
-
-- `Billing for apps <https://docs.clover.com/dev/docs/billing-for-apps>`_
-  (app billing on the legacy Developer Dashboard)
-- `Working with Orders
-  <https://docs.clover.com/dev/docs/working-with-orders>`_ (the Orders
-  API)
+**Artifact:** `Billing for apps
+<https://docs.clover.com/dev/docs/billing-for-apps>`_, app billing on the
+legacy Developer Dashboard.
 
 .. note::
 
-   I wrote the developer billing documentation section in full during my
-   time in Developer Relations at Clover, and I owned the Orders API
-   documentation alongside it. Both pages are live and have been
-   maintained since I left in May 2021; I have no visibility into what
-   changed after that. The billing page documents the legacy Developer
-   Dashboard, and Clover has since introduced a billing API built around
-   events rather than static account statuses.
+   I wrote that billing documentation section in full during my time in
+   Developer Relations at Clover. The page is still live and has been
+   maintained since I left in May 2021, and I have no visibility into
+   what changed after that. It documents the legacy Developer Dashboard;
+   Clover has since introduced a billing API built around events rather
+   than static account statuses.
+
+   I also owned the Orders API documentation, described below. Those
+   pages have been revised enough since 2021 that I do not claim the
+   current versions, so they are not linked here.
 
 Rebuilding the billing documentation from the code
 --------------------------------------------------
