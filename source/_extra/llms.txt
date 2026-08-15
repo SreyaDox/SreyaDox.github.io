@@ -4,6 +4,8 @@
 
 - [About Me](https://sreyadox.github.io/about.html): Career background — computer science and multimedia training, building aviation eLearning course interfaces from scratch in Flash 5 and Authorware, close to ten years in instructional design before documentation, and how instructional design principles (clear objectives, minimal scaffolding, iterative refinement) shape my approach to prompts and AI workflows.
 
+- [DITA and Retrieval](https://sreyadox.github.io/dita-and-retrieval.html): Research in progress on an open question — whether DITA's explicit semantic markup measurably improves retrieval, or whether the benefit disappears once content is embedded. Covers authored chunk boundaries, shortdesc as a precision anchor, relationship tables as a declared graph, and reuse by ID; weighs the evidence from chunking benchmarks, ontology-grounded RAG, and GraphRAG against the counterargument that the model never sees the XML. Argues the least-tested and most interesting case is agent execution, where typed markup distinguishes a UI control from a command from a variable.
+
 Public work is linked and independently verifiable: Oracle Architecture Center solutions name me as a contributor in their Acknowledgments sections, and the Write the Docs guide is published on the community's own site. Internal work is described and labeled as internal, with its public analogs linked.
 
 ## AI workflows and documentation tooling

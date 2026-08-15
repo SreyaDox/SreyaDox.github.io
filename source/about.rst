@@ -94,3 +94,16 @@ then tests — is what my `AI Workflow Design series
 <https://sreyad.medium.com/>`_ documents, and what the
 :doc:`SwiftPay DITA workflow <case-studies/swiftpay-dita-workflow>`
 demonstrates in code.
+
+What I'm curious about next
+---------------------------
+
+Working in `DITA
+<https://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part1-base.html>`_
+every day, I keep running into a question I cannot answer cleanly: does
+DITA's explicit semantic markup actually improve how well a model
+retrieves and acts on content, or does the benefit disappear once
+everything is embedded? Retrieval quality looks like a markup problem
+before it is a model problem, and I would like to know how far that
+holds. I am :doc:`working through the research on it here
+<dita-and-retrieval>`.

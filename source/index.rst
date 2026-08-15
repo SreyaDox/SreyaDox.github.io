@@ -24,6 +24,7 @@ and clearly labeled as such, with its public analogs linked.
    :caption: About
 
    about
+   dita-and-retrieval
 
 .. toctree::
    :maxdepth: 1

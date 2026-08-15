@@ -24,6 +24,6 @@ exclude_patterns = ["_build"]
 # keeps the report free of known false positives — if the whole report is
 # noise, nobody reads it.
 linkcheck_ignore = [
-    r"https://sreyad\.medium\.com/.*",
+    r"https://.*\.?medium\.com/.*",
 ]
 linkcheck_timeout = 15
