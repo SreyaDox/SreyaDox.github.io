@@ -45,7 +45,15 @@ the authoring discipline rather than of any tool:
 - **Relationship tables are an explicit graph.** Related topics are
   declared, not inferred from co-occurrence.
 - **Reuse is by ID.** Where a component is referenced tells you how
-  broadly it applies, which is signal that duplication destroys.
+  broadly it applies, which is signal that duplication destroys. Reuse
+  also forces self-containment: a topic that will be dropped into
+  contexts you have not seen yet cannot say "as described above" or
+  inherit meaning from its surroundings. That is the same property a
+  retrieved chunk needs, since it arrives with no neighbors. Designing
+  for reuse and designing for retrieval are close to the same problem —
+  `SCORM <https://scorm.com/scorm-explained/>`_ reached it from the
+  eLearning side with the sharable content object, assembled by a
+  manifest much as DITA topics are assembled by a map.
 
 Michael Iantosca argues the strong form of this in `DITA = Context!
 <https://medium.com/@nc_mike/dita-context-ee2b24797a28>`_: that context
