@@ -3,7 +3,7 @@ About Me
 
 I am a technical writer and content strategist with 25+ years of
 experience. I work at Oracle as a Lead Principal Technical Writer,
-where I document OCI Vision, write reference architectures and solution
+where I document OCI AI Services like Vision an Big Data, publish cross-product reference architectures and solution
 content for the Architecture Center, and build AI-assisted authoring
 workflows.
 
@@ -37,36 +37,36 @@ lists, no menus, nothing out of the box. My colleagues and I found code
 samples, customized them through scripting, and built every course
 interaction and the navigation bar from scratch.
 
-I also designed an XML database to send and retrieve course information
-from a learning management system, and built a randomized question and
-testing tool on top of it, compliant with the AICC and SCORM standards.
+I also designed an XML database to send and retrieve course tracking statuses
+to a learning management system (LMS), and built a randomized question and
+testing tool on top of it, compliant with the AICC (https://www.aicc.org/) and SCORM (https://en.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) standards.
 
 From training to documentation, 2005 onward
 --------------------------------------------
 
 After Sankhya I spent close to three years at Progress Software
-designing enterprise software training, then joined Oracle in 2008 as a
-curriculum developer for the Oracle Communications global unit. Over
-time I moved into technical writing and documentation management,
-leading a documentation team for Oracle Fusion ERP Cloud Project
-Management. I spent two years at Clover (Fiserv) writing API
+designing enterprise software elearning courses for Sonic Software, then joined Oracle in 2008 as a
+curriculum developer for the Oracle Communications global unit. I moved into a combined Information Developer role working on both curriculum and documentation for or Oracle Fusion ERP Cloud Project
+Management. I tranbsitioned to a manager and led a documentation team and curriculum team of size 8-10 incuding hiring experienced writers in India and US. I was intrumental in desgining interview activities for the college hiring program and managed a team with a wide range of experience levels.
+
+After I moved to the US in the Bay Area, CA, I spent two years at Clover (Fiserv) writing API
 documentation for developers, then returned to Oracle in 2021.
 
-That is close to ten years in instructional design before documentation
-became the main work. The design training came back too: when our
+I spent close to ten years in instructional design before documentation
+became my main role. My design training came handy when our
 graphics team was cut, I taught myself Figma and now build the
-architecture diagrams our customers download and customize.
+architecture diagrams our customers download and customize. I've recentl also created an architecture diagram skill in addition to AI DITA documentation skills.
 
 What instructional design taught me about writing for models
 --------------------------------------------------------------
 
-Good curriculum and good model instructions need the same things: clear
+Good curriculum and good model instructions need the same things: understanding your audience, clear
 objectives, minimal scaffolding, and iterative refinement. Excess
-complexity reliably produces worse outcomes in both.
+complexity reliably produces worse outcomes in both. The job is to deeply grasp complex subjects and transform the subject into easily learnable content focused on accomplishing the business goal.
 
-So my approach to prompts and skills is deliberately minimal. Start
-with what the model needs to know and nothing more, test it, prune it,
-refine it. That is where the argument in `Building AI Workflows and
+This influences my approach to prompts and skills while working with an LLM to be minimal and focused on the goal. Start
+with what the model needs to know, test it, prune it,
+refine it. My first blog on this subject is `Building AI Workflows and
 Minimalism
 <https://sreyad.medium.com/building-ai-workflows-and-minimalism-f6ae7206f627>`_
 comes from.
@@ -80,7 +80,7 @@ be explained, sequenced, and assessed differently. DITA types topics
 the same way, as `concept, task, and reference
 <https://dita-lang.org/dita/archspec/base/information-typing>`_.
 
-The two line up almost exactly, and not by accident. Both descend from
+The two line up meaningfully to achieve the same goal. Both originate from
 the `structured writing
 <https://en.wikipedia.org/wiki/Structured_writing>`_ research of the
 1960s, particularly Robert Horn's Information Mapping, which derived
@@ -90,7 +90,7 @@ Deciding whether something is a concept or a procedure is the same
 judgment in a course outline and in a DITA map, and it is the judgment
 that decides where one chunk ends and the next begins. Which is why the
 chunking question interests me: the boundary that retrieval research
-keeps landing on is the one instructional design settled decades ago.
+keeps landing on is the one instructional design settled decades ago. I built this decision making into my DITA skill.
 
 Why this history matters
 ------------------------
@@ -99,9 +99,13 @@ I have coded in some form throughout my career: course interfaces, XML
 data exchange, install guides written by provisioning my own cloud
 environments, internal tools. That foundation, plus years working
 embedded inside engineering teams and their development processes, is
-one of my strong points.
+one of my strong points. In Fusion Apps, information developers (writers) were deeply embedded in the scrum teams. Our role ranged from reviewers & approvers of Functional Design documents, UX writing, product documentation design and publishing, What's New, release notes, API documentation (SOAP & REST), and curriculum. We had to demonstrate product knowledge alingside working with various SME roles to be able to support the full gamut of deliverables for a product and feature. 
 
-It is also why I could move quickly when my team got access to AI tools
+In Oracle Architecture Center, product knowledge can be more challenging because of the 'cross-product' nature of the solution architectures. It requires context swicthing between domains and products and working with SMEs to ensure what we document, diagram, and publish are of high-quality and valuable to customers. This content is directly revenue generating outside of support revenue to support filed personal and sell cros-product solutions as customers would use them not as individual products. This broadened my perspective and understanding of how customers use Oracle and our partnr products in real implementations and not in isolated product boundaries. 
+
+We had multiple reorgs over the years and in one of the early ones I jumped into Analytics to cover the gap after the loss of our analyst. I learned Adobe Analytics and Oracle Analytics Cloud and published traffic metrics. I also looked at search keywords and shared with our internal partners to help them understand what people were searching for. I also looked at revenue generated from our call-to-action buttons and it was direct evidence of our site tarffic and the button feature generating clicks to a trial deployment which sometimes translated into a paid subscription. It was exciting that our content was vsiibly contributing to revenue.
+
+Over reogs in 2025 we were given access to AI tools
 in September 2025. I started by generating each DITA topic manually
 with Codex and Cline, adding product and service name references
 (conkeyrefs) one at a time. From there I expanded into skills with
